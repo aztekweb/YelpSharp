@@ -10,7 +10,7 @@ namespace YelpSharp.Data
     /// </summary>
     public class Review
     {
-        
+
         /// <summary>
         /// Review identifier
         /// </summary>
@@ -24,17 +24,17 @@ namespace YelpSharp.Data
         /// <summary>
         /// URL to star rating image for this business (size = 84x17)
         /// </summary>
-        public string rating_img_url { get; set; }
+        public string rating_image_url { get; set; }
 
         /// <summary>
         /// URL to small version of rating image for this business (size = 50x10)
         /// </summary>
-        public string rating_img_url_small { get; set; }
+        public string rating_image_small_url { get; set; }
 
         /// <summary>
         /// url	URL to large version of rating image for this business (size = 166x30)
         /// </summary>
-        public string rating_img_url_large { get; set; }
+        public string rating_image_large_url { get; set; }
 
         /// <summary>
         /// Time created (Unix timestamp)
@@ -50,6 +50,6 @@ namespace YelpSharp.Data
         /// Excerpt of the review
         /// </summary>
         public string excerpt { get; set; }
-       
+
     }
 }

@@ -131,7 +131,7 @@ namespace YelpSharpTests
             Yelp y = new Yelp(Config.Options);
             Business business = y.GetBusiness("foo-bar").Result;
 
-            Assert.IsNull(business);
+            Assert.IsNull(business.id);
         }
     }
 }
